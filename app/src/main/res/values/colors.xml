@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // Neutral
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    // Green
+    <color name="green_100">#CFEFE5</color>
+    <color name="green_200">#9FDFCB</color>
+    <color name="green_300">#6ECEB0</color>
+    <color name="green_400">#3EBE96</color>
+    <color name="green_500">#0EAE7C</color>
+    <color name="green_600">#0B8B63</color>
+    <color name="green_700">#08684A</color>
+    <color name="green_800">#064632</color>
+    <color name="green_900">#01110C</color>
+
+    // Red
+    <color name="red_100">#FFDAD7</color>
+    <color name="red_200">#FFB5AF</color>
+    <color name="red_300">#FF8F88</color>
+    <color name="red_400">#FF6A61</color>
+    <color name="red_500">#FF453A</color>
+    <color name="red_600">#CC372D</color>
+    <color name="red_700">#992922</color>
+    <color name="red_800">#661C16</color>
+    <color name="red_900">#330E0B</color>
+
+    // Gray
+    <color name="gray_100">#F8F9FB</color>
+    <color name="gray_200">#DDE1E6</color>
+    <color name="gray_300">#C1C7CD</color>
+    <color name="gray_400">#9FA4AC</color>
+    <color name="gray_500">#878D96</color>
+    <color name="gray_600">#697077</color>
+    <color name="gray_700">#4D5358</color>
+    <color name="gray_800">#343A3F</color>
+    <color name="gray_900">#1B2138</color>
+</resources>
