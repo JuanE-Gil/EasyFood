@@ -20,6 +20,15 @@
         android:theme="@style/Theme.EasyFood"
         tools:targetApi="31">
         <activity
+            android:name=".views.perfilscreenview.PerfilScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.carritoscreenview.CarritoScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.buscarscreenview.BuscarScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".views.homescreenview.HomeScreenActivity"
             android:exported="false" />
         <activity
@@ -33,7 +42,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

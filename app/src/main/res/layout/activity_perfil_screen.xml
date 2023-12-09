@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_marginHorizontal="10dp"
     android:layout_marginVertical="10dp"
-    tools:context=".views.homescreenview.HomeScreenActivity">
+    android:orientation="vertical"
+    tools:context=".views.perfilscreenview.PerfilScreenActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -19,13 +19,13 @@
         <TextView
             android:id="@+id/tvUsuario"
             android:layout_width="match_parent"
-            android:background="@drawable/shape"
             android:layout_height="85dp"
+            android:background="@drawable/shape"
             android:gravity="center"
-            android:text="HOME"
+            android:paddingTop="30dp"
+            android:text="BUSCAR"
             android:textColor="@color/gray_700"
             android:textSize="28sp"
-            android:paddingTop="30dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -33,11 +33,4 @@
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvmenu"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginHorizontal="4dp"
-        android:layout_marginVertical="4dp" />
 </LinearLayout>
