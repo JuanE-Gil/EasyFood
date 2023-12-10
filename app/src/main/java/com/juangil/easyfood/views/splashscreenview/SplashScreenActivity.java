@@ -12,7 +12,6 @@ import com.juangil.easyfood.MainActivity;
 import com.juangil.easyfood.R;
 import com.juangil.easyfood.databinding.ActivitySplashScreenBinding;
 import com.juangil.easyfood.utils.Utils;
-import com.juangil.easyfood.views.homescreenview.HomeScreenActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -38,7 +37,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
     private void cambiarPantalla() {
         new Handler().postDelayed(() -> {
-            Intent intent = new Intent(SplashScreenActivity.this, HomeScreenActivity.class);
+            Intent intent = new Intent(SplashScreenActivity.this, MainActivity.class);
             startActivity(intent);
             finish();
         }, new Utils().getDuracionSplashScreen());

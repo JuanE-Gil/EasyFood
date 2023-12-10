@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.juangil.easyfood.views.homescreenview.HomeScreenFragment"
+        tools:layout="@layout/fragment_home_screen" />
+
+    <fragment
+        android:id="@+id/buscar"
+        android:name="com.juangil.easyfood.views.buscarscreenview.BuscarScreenFragment"
+        tools:layout="@layout/fragment_buscar_screen" />
+
+    <fragment
+        android:id="@+id/carrito"
+        android:name="com.juangil.easyfood.views.carritoscreenview.CarritoScreenFragment"
+        tools:layout="@layout/fragment_carrito_screen" />
+
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.juangil.easyfood.views.perfilscreenview.PerfilScreenFragment"
+        tools:layout="@layout/fragment_perfil_screen" />
+</navigation>
